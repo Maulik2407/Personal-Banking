@@ -1,0 +1,266 @@
+@media only screen and (max-width:600px) {
+
+
+    .mini-nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .mini-nav ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mini-nav ul li {
+        list-style: none;
+    }
+
+    .mini-nav ul li a {
+        text-decoration: none;
+        font-size: 9px;
+        color: white;
+    }
+
+    .icon-mini a {
+        padding: 2px 5px;
+        color: white;
+        display: flex;
+        background-color: rgb(243, 73, 73);
+        border-radius: 8px;
+    }
+
+    .pnb {
+        width: 200px;
+    }
+
+    .nav-thr {
+        background-color: rgb(128, 21, 0);
+        text-align: start;
+    }
+
+    .nav-trd {
+        color: rgb(255, 196, 0);
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+    .sec-tx h1 {
+        font-size: 20px;
+    }
+
+    .sec-tx p {
+        font-size: 16px;
+    }
+
+    .sec-tx p2 {
+        font-size: 14px;
+    }
+
+    .sec-tx {
+        height: 350px;
+    }
+
+    .sec-iin {
+        text-align: center;
+        height: 620px;
+    }
+
+    .sec-iin form {
+        width: 100%;
+    }
+
+    .sec-iin h1 {
+        font-size: 25px;
+    }
+
+    .ipuu {
+        padding: 7px 100px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .sec-bbt {
+        padding: 8px 100px;
+        font-size: 15px;
+    }
+
+    .sec-bbt:hover {
+        transform: scale(1.1);
+        transition: .3s ease-in;
+    }
+
+
+    .container-three .row {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        overflow: auto;
+        border: 4px solid rebeccapurple;
+    }
+
+    .first-coro {
+        position: absolute;
+        width: 100px;
+        bottom: 50px;
+        left: 39%;
+    }
+
+
+    .third-card {
+        width: 100%;
+        height: 370px;
+        transition: .4s linear;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+
+    .container-four .row {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        overflow: auto;
+        border: 4px solid rebeccapurple;
+    }
+
+    .four-card {
+        width: 100%;
+        height: 370px;
+        transition: .4s linear;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .ff-left {
+        background-color: #a20a3b;
+        background-image: none;
+        height: 400px;
+    }
+
+    .circal {
+        width: 250px;
+        height: 250px;
+        left: 24%;
+    }
+
+    .ff-btn {
+        padding: 6px 7px;
+        font-size: 14px;
+
+    }
+
+    .circal h1 {
+        font-size: 21px;
+        font-weight: bold;
+        color: maroon;
+    }
+
+    .circal p {
+        font-size: 13px;
+    }
+
+    .t-ibox {
+        height: 200px;
+    }
+
+    .sev-end {
+        text-align: center;
+    }
+
+    .ss-box {
+        width: 360px;
+        background: rgb(162, 140, 10);
+        background: linear-gradient(180deg, rgba(162, 140, 10, 0.6134103299522935) 0%, rgba(203, 26, 82, 1) 15%, rgba(177, 4, 55, 1) 94%);
+    }
+
+    .sevsmall-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sev-end h1 {
+        font-size: 20px;
+    }
+
+    .sev-end button {
+        background-color: rgb(255, 187, 0);
+        color: maroon;
+        padding: 6px 7px;
+        font-size: 15px;
+    }
+
+    .footer-fast ul {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-two ul {
+        width: 100%;
+        flex-wrap: wrap;
+        /* border: 3px solid red; */
+    }
+
+    .footer-two ul li {
+        width: 50%;
+        color: maroon;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .footer-two ul li a {
+        font-size: 14px;
+    }
+
+
+    .pxlex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pxlex a {
+        font-size: 11px;
+    }
+
+
+    .five-right {
+        height: 50vh;
+    }
+
+    .five-left {
+        height: 40vh;
+    }
+
+    .flesh {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flash-screen {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 70%;
+        background-color: rgb(178, 56, 56);
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+    }
+
+}
